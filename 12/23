@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	height: 42px;
+	margin: 30px auto;
+}
+.logo{
+	float: left;
+}
+.nav{
+	float: left;
+}
+.nav ul li{
+   float: left;
+   margin: 0 15px;
+}
+.nav ul li a{
+	color: #050505;
+	font-size: 20px;
+}
+.nav ul li a:hover{
+	border-bottom: 2px solid skyblue;
+	color: skyblue;
+}
+.search{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 70px;
+}
+.search input{
+	float: left;
+	width: 400px;
+	height: 40px;
+	border: 2px solid skyblue;
+}
+.search button{
+	float: left;
+	width: 80px;
+	height: 45px;
+	border: 0;
+	background:url(./images/btn.png) no-repeat;
+}
+.user{
+	float: right;
+	margin-right: 30px;
+	font-size: 14px;
+}
+.banner{
+	height: 500px;
+	background-color: #1c036c;
+}
+.banner .w{
+	height: 420px;
+	background: url(./images/banner2.png) no-repeat top center;
+}
+.subnav{
+	float: left;
+	width: 190px;
+	height: 420px;
+	background-color: #14024b;
+}
+.subnav ul li{
+	height: 45px;
+	line-height: 45px;
+	padding-top: 0 20px;
+}
+.subnav ul li:hover{
+	background-color: yellowgreen;
+}
+.subnav ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.course{
+	float: right;
+	width: 230px;
+	height: 320px;
+	background-color: #fff;
+	margin-top: 50px; 
+}
+.course h2{
+	text-align: center;
+	color: #f3f9fc;
+	background-color: skyblue;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+}
+.bd {
+	padding: 0 20px;
+}
+.bd ul li{
+	padding: 14px 0;
+    border-bottom: 2px solid #ccc;
+}
+.bd ul li h4{
+	font-size: 16px;
+	color: 
+}
+.bd ul li p{
+	font-size: 12px;
+}
+.bd .more{
+	display: block;
+	height: 38px;
+	border: 1px solid #00a4ff;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 38px;
+	color: #00a4ff;
+	font-size: 16px;
+	font-weight: 700;
+}
+.goods{
+	height: 60px;
+	background-color: #ffffff;
+    margin-top: 10px;
+    line-height: 60px;
+}
+.goods h3{
+	float:left;
+	margin-left: 30px;
+	font-size: 16px;
+	color: #00a4ff;
+}
+.goods ul li{
+	float: left;
+}
+.goods ul li a{
+	padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+.mod{
+	float: right;
+	font-size: 30px;
+	margin-right: 20px;
+	color: #00a4ff;
+}
+.box{
+	margin-top: 30px;
+}
+.box-hd{
+	height: 45px;
+}
+.box-hd h3{
+	float: left;
+	font-size: 20px;
+	color: #686969;
+}
+.box-hd a{
+	float: right;
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-top: 10px;
+	margin-right: 30px;
+
+}
+.box-bd ul{
+	width: 1225px;
+}
+.box-bd li{
+	position: relative;
+	float: left;
+	width: 230px;
+	height: 270px;
+	margin-right:20px ;
+	margin-bottom: 15px;
+}
+.box-bd ul li>img{
+	width: 100%;
+}
+.box-bd ul li h4{
+	margin:20px 20px 20px 25px;
+	font-size: 15px;
+	color: #050505;
+	font-weight: 400;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>学习网站首页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header w">
+    	<!--logo部分-->
+    	<div class="logo">
+    		<img src="./images/logo.png">
+    	</div>
+    	<!--三个超链接-->
+    	<div class="nav">
+    		<ul>
+    			<li><a href="#">首页</a></li>
+    			<li><a href="#">课程</a></li>
+    			<li><a href="#">职业规划</a></li>
+    		</ul>
+    	</div>
+    	<!--搜索模块-->
+    	<div class="search">
+    		<input type="text" value="请输入内容">
+    		<button></button>
+    	</div>
+    	<!--用户模块-->
+    	<div class="user">
+    		<img src="./images/user.png">
+    		123
+    	</div>
+    </div>
+    <!--banner部分-->
+    <div class="banner">
+    	<!--首页图片-->
+    	<div class="w">
+    		<!--左边的展示栏-->
+    		<div class="subnav">
+    			<ul>
+    				<li><a href="#">前端开发</a></li>
+    				<li><a href="#">后端开发</a></li>
+    				<li><a href="#">java编程</a></li>
+    				<li><a href="#">网页设计</a></li>
+    				<li><a href="#">ps入门精通</a></li>
+    				<li><a href="#">美容美发</a></li>
+    				<li><a href="#">汽车维修</a></li>
+    				<li><a href="#">厨师烹饪</a></li>
+    				<li><a href="#">ui设计</a></li>
+    			</ul>
+    		</div>
+    		<!--右边的课程表-->
+    		<div class="course">
+    			<h2>我的课表</h2>
+    			<div class="bd">
+    			<ul>
+    				<li>
+    					<h4>继续学习</h4>
+    					<p>学习c语言</p>
+    				</li>
+    				<li>
+    					<h4>继续学习</h4>
+    					<p>学习c语言</p>
+    				</li>
+    				<li>
+    					<h4>继续学习</h4>
+    					<p>学习c语言</p>
+    				</li>
+    			</ul>
+    			<a href="#" class="more">全部课程</a>
+    		</div>
+    	</div>
+    </div>
+</div>
+    <!--banner部分结束-->
+    <!--精品推荐-->
+    <div class="goods w">
+        <div class="box-hd">
+        <h3>精品推荐</h3>
+        <ul>
+            <li><a href="#">js</a></li>
+            <li><a href="#">java</a></li>
+            <li><a href="#">c</a></li>
+            <li><a href="#">html</a></li>
+            <li><a href="#">ps</a></li>
+            <li><a href="#">anriod</a></li>
+        </ul>
+        <a href="#" class="mod">修改兴趣</a>
+    </div>
+
+   <!--精品推荐结束-->
+   <!--核心区域-->
+   <div class="box w">
+     <div class="box-hd">
+       <h3>精品推荐</h3>
+       <a href="#">查看全部</a>
+     </div>
+     <div class="box-bd">
+       <ul class="clearfix">
+         <li>
+           <em><img src="images/hot.png"></em>
+           <img src="images/pic.png" alt="大图">
+           <h4>hkcms项目实战演练</h4>
+           <div class="info">
+             <span>高级</span>
+             16人在学
+           </div>
+         </li>
+       </ul>
+     </div>
+   </div>
+
+</body>
+   
+</html>
